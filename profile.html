@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EXLTO-GAMES - сайт для фанатів комп'ютерних ігор. Ділимося посиланнями на новинки і популярні ігри для ПК.">
+    <meta name="keywords" content="ігри, ПК, комп'ютерні ігри, новинки ігор, популярні ігри">
+    <meta name="author" content="EXLTO-GAMES">
+    <title>EXLTO-GAMES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EXLTO-GAMES</h1>
+            <div class="auth-buttons">
+                <a href="#login" id="login-button">Увійти</a>
+                <a href="#register" id="register-button">Зареєструватися</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <section class="section">
+                <h2>Останні Ігри</h2>
+                <div class="filters">
+                    <input type="text" id="search" placeholder="Пошук...">
+                    <select id="filter">
+                        <option value="">Всі категорії</option>
+                        <option value="action">Action</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="strategy">Strategy</option>
+                        <option value="rpg">RPG</option>
+                        <!-- Додати більше категорій тут -->
+                    </select>
+                </div>
+                <div class="game-list" id="game-list">
+                    <!-- Ігри будуть додані тут через JavaScript -->
+                </div>
+                <div class="pagination">
+                    <button id="prev-page">« Попередня</button>
+                    <button id="next-page">Наступна »</button>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>Про наш Сайт</h2>
+                <p>На Цьому сайті ми ділимося посиланнями на різні комп'ютерні ігри для ПК. Тут ти знайдеш новинки, популярні ігри та багато іншого!</p>
+            </section>
+
+            <section class="section">
+                <h2>Підписатися на Наш Телеграм-канал</h2>
+                <p>Щоб бути в курсі всіх новин і отримувати останні посилання на ігри, підписуйся на наш канал:</p>
+                <a href="https://t.me/EXLTO_GAMES" target="_blank">Перейти до каналу</a>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 EXLTO-GAMES Все про Ігри. Всі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
